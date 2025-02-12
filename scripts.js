@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
      * @param platform a string representing which button ie platform called this function
      */
     function handleJoinClick(platform) {
-        const userEmail = prompt(`Please enter your email to be notified when Spark! Bytes is ready for ${platform}:`);
+        const userEmail = prompt("Please enter your email to be notified when Spark! Bytes is ready for ${platform}:");
 
         if (userEmail) {
-            console.log(`User email for ${platform}: ${userEmail}`);
-            alert(`Thank you! We will notify you at ${userEmail} when Spark! Bytes is ready for ${platform}.`);
-            const signedUpS = document.getElementById('signedup');
+            console.log("User email for ${platform}: ${userEmail}");
+            alert("Thank you! We will notify you at ${userEmail} when Spark! Bytes is ready for ${platform}.");
+            const signedUpS = document.getElementById("signedup");
             signedUpS.textContent += userEmail + " ";
         } else {
-            alert('No email provided. Please try again if you wish to be notified.');
+            alert("No email provided. Please try again if you wish to be notified.");
         }
     }
 
