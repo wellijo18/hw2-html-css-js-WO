@@ -1,0 +1,185 @@
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Green color theme */
+.green-bg {
+    background-color: #4caf50;
+}
+
+.green-text {
+    color: #4caf50;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #4caf50;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+/* Main content */
+.content {
+    padding: 2em;
+}
+
+/* Call to action */
+.cta {
+    padding: 1em;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 1px solid #4caf50;
+    background-color: #333;
+    /* Add something here so that there is a transition on the background color    */
+}
+
+/* Add something hear for changing the color on hover */
+
+
+/* Footer */
+footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+/* Author Info */
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* space between image and text */
+}
+
+.author-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* make the image circular */
+    object-fit: cover;
+    /* Add CSS to create a border around the author image   */
+}
+
+.btn-logo {
+    /*Add some CSS to control the height and width of the logo */
+    margin-right: 0.5em; /* Adds some space between the logo and the button text */
+    vertical-align: middle; /* Aligns the logo with the text */
+    height: 20px;
+    width: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+header{
+    display: flex;
+    background-color: #4caf50;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+#stitle{
+    color: white;
+    font-size: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#sections{
+    display: flex;
+    gap: 1.5em;
+    color: white;
+    font-size: 20px;
+}
+
+#sections a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#sections a:hover {
+    text-decoration: underline;
+}
+
+main{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#sparktitle{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+#authortitle{
+    font-size: 30px;
+}
+
+#wellipic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #4caf50;
+}
+
+#authorinfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px
+}
+
+#aboutauthor{
+    padding-bottom: 35px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+#joinbs button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bts{
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    transition: background-color 0.3s
+}
+.bts:hover{
+    background-color: green;
+    cursor: pointer;
+}

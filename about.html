@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Spark! Bytes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="scripts.js"></script>
+<body>
+<header>
+    <h1 id="stitle">
+        Spark! Bytes
+    </h1>
+    <div id="sections">
+        <a href="index.html" id="hsection">
+            Home
+        </a>
+        <a href="about.html" id="asection">
+            About
+        </a>
+    </div>
+</header>
+
+<main>
+    <div id="welcome">
+        <h2 id="sparktitle">
+            Welcome to Spark! Bytes
+        </h2>
+        <p>
+            Spark! Bytes is a revolutionary platform for
+  Boston University’s community. After events, any leftover food can be posted
+  here, and those interested can sign up to grab some delicious free food.
+        </p>
+        <p>
+            Our unique feature allows users to filter out food
+  based on allergens, types and more. Stay up-to-date through SMS and text
+  notifications whenever free food is available nearby!
+        </p>
+    </div>
+    <div>
+        <h2>
+            Sign Up
+        </h2>
+        <p>
+            Sign up for Notifications
+        </p>
+        <form action="/submit" method="POST">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button id="Sign Up">
+                Sign Up
+            </button>
+        </form>
+
+    </div>
+    <div>
+        <h2>
+            Users who have signed up
+        </h2>
+        <p id="signedup">
+
+        </p>
+        <div class="cta">
+            <p>
+                Want to try it out?
+            </p>
+            <div id="joinbs">
+                <button id="iosbtn" class="bts">
+                    <img src="apple.svg" class="btn-logo" alt="apple logo">
+                    Join for IOS
+                </button>
+                <button id ="androidbtn" class="bts">
+                    <img src="android.svg" class="btn-logo" alt="android logo">
+                    Join for Android
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<footer>
+    &copy; 2025 Spark! Bytes. All Rights Reserved.
+</footer>
+</html>
